@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Character Encoding -->
+    <meta charset="UTF-8">
+
+    <!-- Favicon -->
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+
+    <!-- Viewport for Responsive Design -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Page Title (Important for SEO) -->
+    <title>Aime Serge Tuyishime | Computer Science Student & Data Analyst</title>
+
+    <!-- Meta Description (Important for SEO) -->
+    <meta name="description" content="Aime Serge Tuyishime, also known as Aime Moria, is a Computer Science student specializing in Data Analytics. Explore my skills, projects, and contact me for collaborations.">
+
+    <!-- Canonical URL (Prevent Duplicate Content) -->
+    <link rel="canonical" href="https://www.aime-moria.com">
+
+    <!-- Open Graph Tags (For Social Media Sharing) -->
+    <meta property="og:title" content="Aime Serge Tuyishime | Computer Science Student & Data Analyst">
+    <meta property="og:description" content="Aime Serge Tuyishime, also known as Aime Moria, is a Computer Science student specializing in Data Analytics. Explore my skills, projects, and contact me for collaborations.">
+    <meta property="og:image" content="https://www.aime-moria.com/images/profile.jpg">
+    <meta property="og:url" content="https://www.aime-moria.com">
+
+    <!-- Twitter Card Tags (For Twitter Sharing) -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Aime Serge Tuyishime | Computer Science Student & Data Analyst">
+    <meta name="twitter:description" content="Aime Serge Tuyishime, also known as Aime Moria, is a Computer Science student specializing in Data Analytics. Explore my skills, projects, and contact me for collaborations.">
+    <meta name="twitter:image" content="https://www.aime-moria.com/images/profile.jpg">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Reenie+Beanie&display=swap" rel="stylesheet">
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+
+    <!-- EmailJS SDK -->
+    <script src="js/emailjs.min.js"></script>
+</head>
+<body>
+    <header>
+        <div><a href="#home" class="logo">aimemoria</a></div>
+        <nav>
+            <button id="darkModeToggle" class="dark-mode-btn">&#9680;</button>
+            <button id="menuToggle" class="menu-toggle">&#x2015;<br>&#x2015;</button>
+            <ul class="menu">
+                <li><a href="#home" class="quicksand-menu">Home</a></li>
+                <li><a href="#about" class="quicksand-menu">About</a></li>
+                <li><a href="#skills" class="quicksand-menu">Skills</a></li>
+                <li><a href="#contact" class="quicksand-menu">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div  class="home-section">
+            <!-- Home Section -->
+            <section id="home">
+                <img src="images/profile.jpg" alt="Aime Serge Tuyishime" class="profile-photo">
+                <h1>Aime S. Tuyishime</h1>
+                <p style="font-weight: bold;">United States</p>
+                <p>The function of good software is to make the complex appear simple. – Grady Booch</p>
+                <div class="home-buttons">
+                    <button onclick="document.querySelector('#contact').scrollIntoView({ behavior: 'smooth' });">Reach Me</button>
+                    <a href="files/Resume.pdf" download="Aime's_Resume.pdf">My Resume</a>
+                </div>
+                <canvas id="network"></canvas>
+            </section>
+        </div>
+        <!-- About Section -->
+        <section id="about">
+            <div class="about-section">
+                <aside class="left-sidebar">
+                    <div class="card-1">
+                        <img src="images/experience-icon.png" alt="Experience Icon" class="card-icon">
+                        <h3>3 Years</h3>
+                        <p>of Experience</p>
+                    </div>
+                    <div class="card-2">
+                        <img src="images/certificates-icon.png" alt="Certificates Icon" class="card-icon">
+                        <h3>Certificates</h3>
+                        <p>Available upon request</p>
+                    </div>
+                    <div class="card-3">
+                        <img src="images/projects-icon.png" alt="Projects Icon" class="card-icon">
+                        <h3>10+</h3>
+                        <p>Completed Projects</p>
+                    </div>
+                </aside>
+                <div class="about-1">
+                    <h2>Get to Know Me</h2>
+                    <p>
+                        My name is Aime Serge Tuyishime, also known as Aime Moria. I am a dedicated Computer Science student at Grand Canyon University, specializing in Big Data Analytics. My academic journey has been shaped by a strong foundation in Mathematics, Physics, and Geography, which have sharpened my analytical thinking, problem-solving, and spatial reasoning skills. These disciplines complement my passion for leveraging technology to address real-world challenges and innovate solutions that make a difference.
+                        <br><br>
+                        I bring a diverse set of technical skills, including proficiency in programming languages such as Java, C++, Python, and tools like MongoDB, MySQL, and .NET. My experience extends to multimedia production, where I use Adobe Photoshop and Premiere Pro for photography and videography. Currently, I work as a Direct Support Professional at Sevita Health, providing emotional support and companionship while managing healthcare strategies to improve client well-being. My role has honed my teamwork, organizational, and crisis management abilities.
+                        <br><br>
+                        In addition to my technical and professional expertise, I am a certified CPR/First Aid provider, emphasizing my commitment to safety and readiness in both professional and personal settings. My ultimate goal is to integrate my technical knowledge, creative problem-solving, and leadership skills to make meaningful contributions to the tech industry and beyond. I am eager to embrace new challenges, grow as a professional, and leave a positive impact through my work.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills">
+            <h2>Skills</h2>
+            <div class="skills-container">
+                <!-- Skill Card 1 -->
+                <div class="skill-card">
+                    <div class="skill-icon"><i class="fab fa-java" style="font-size: 48px; color: #48a7f5;"></i></div>
+                    <h3>Java</h3>
+                    <p>Java is a popular programming language used to build applications for web, desktop, and mobile</p>
+                    <p class="skill-tools">IntelliJ IDEA/Eclipse, Maven/Gradle, JUnit,Hibernate,Spring Boot</p>
+                </div>
+                <!-- Skill Card 2 -->
+                <div class="skill-card">
+                    <div class="skill-icon"><i class="fab fa-js" style="font-size: 48px; color: #f36f4e;"></i></div>
+                    <h3>JavaScript</h3>
+                    <p>JavaScript is a dynamic scripting language used to create interactive web pages and handle events.</p>
+                    <p class="skill-tools">TypeScript</p>
+                </div>
+                <!-- Skill Card 3 -->
+                <div class="skill-card">
+                    <div class="skill-icon"><i class="fab fa-cuttlefish" style="font-size: 48px; color: #eba439;"></i></div>
+                    <!-- <p class="skill-meta">1 year ago • Proficiency: Expert</p> -->
+                    <h3> C++</h3>
+                    <p>A powerful language used for systems programming, game development, and high-performance applications.</p>
+                    <p class="skill-tools"> Visual Studio, Eclipse, Code::Blocks.</p>
+                </div>    
+            </div>
+            <!-- Hidden Skills -->
+            <div class="hidden-skills">
+                <!-- Skill Card 4 -->
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fab fa-html5" style="font-size: 48px; color: #ec5353;"></i>
+                        <i class="fab fa-css3-alt" style="font-size: 48px; color: #dd8e4e;"></i>
+                    </div>
+                <h3>HTML & CSS:</h3>
+                <p>Core technologies for structuring and styling web pages.</p>
+                <p class="skill-tools">Sublime Text, Visual Studio Code, Chrome DevTools.</p>
+            </div>
+        <!-- Skill Card 5 -->
+                <div class="skill-card">
+                    <div class="skill-icon"><i class="fas fa-database" style="font-size: 48px; color: #f0db4f;"></i>
+                    </div>
+                    <h3>Database Management</h3>
+                    <p>A database is an organized system for storing, managing, and retrieving data efficiently.</p>
+                    <p class="skill-tools">MongoDB, MySQL</p>
+                </div>
+                  <!-- Skill Card 6 -->
+                  <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fab fa-adobe" style="font-size: 48px; color: #001e36;"></i>
+                        <i class="fa-solid fa-photo-film" style="font-size: 48px; color: #ff99ff;"></i>
+                    </div>
+                        <p class="skill-meta">Other Skills</p>
+                        <h3>Photography & Videography</h3>
+                        <p>For professional video, image editing and production.</p>
+                        <p class="skill-tools">Adobe Premiere Pro, Adobe Photoshop </p>
+                </div>
+            </div>
+            <button class="view-skills-btn" onclick="toggleHiddenSkills()">View All Skills</button>
+        </section>
+        
+
+        <!-- Contact Section -->
+        <section id="contact">
+            <div class="contact-section">
+                <div class="contact-sidebar">
+                    <p><a href="https://www.linkedin.com/in/aimemoria/" target="_blank" style="color: #56c1f3;"><i class="fab fa-linkedin"></i> LinkedIn</a></p>
+                    <p><a href="https://www.instagram.com/aimemoria/profilecard/?igsh=MWtyN2xxenppNzFr" target="_blank" style="color: #f08ca5;"><i class="fab fa-instagram"></i> Instagram</a></p>
+                    <p><a href="https://wa.me/qr/6W6KFYT2XTMKC1" target="_blank" style="color: #60bd74;"><i class="fab fa-whatsapp"></i> WhatsApp</a></p>
+                    <p><a href="https://www.facebook.com/share/15Y5bvPpoA/?mibextid=wwXIfr" target="_blank" style="color: #3270f7;"><i class="fab fa-facebook"></i> Facebook</a></p>
+                </div>
+                <section id="contact-1">
+                    <h2>Reach Me Out</h2>
+                    <p>If you have any questions, feel free to reach out!</p>
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Your Name<span style="color: red;">*</span></label>
+                            <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="contact-info">Email<span style="color: red;">*</span></label>
+                            <input type="email" id="contact-info" name="contact-info" placeholder="Enter your email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="location">Location</label>
+                            <input type="text" id="location" name="location" placeholder="Enter your location (optional)">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message<span style="color: red;">*</span></label>
+                            <textarea id="message" name="message" rows="4" placeholder="Enter your message" required></textarea>
+                        </div>
+                        <button type="submit">Send Message</button>
+                    </form>
+                    <div id="form-message"></div>
+                </section>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-logo">
+            <div><a href="#home" class="logo">aimemoria</a></div>
+            <p>I'm a passionate Computer Science<br> student with a strong foundation in<br> programming, problem-solving, and<br> software development.</p>
+        </div>
+        <div class="footer-contact">
+            <h2>Contact</h2>
+            <p><i class="fas fa-map-marker-alt"></i> United States</p>
+            <p><i class="fas fa-phone"></i> <a href="tel:+14059266844">+1 (405) 926-6844</a></p>
+            <p><i class="fas fa-envelope"></i> <a href="mailto:220aime@gmail.com">220aime@gmail.com</a></p>
+        </div>
+        <div class="footer-follow">
+            <h2>Follow Me</h2>
+            <a href="https://www.linkedin.com/in/aimemoria/" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://www.instagram.com/aimemoria/profilecard/?igsh=MWtyN2xxenppNzFr" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://wa.me/qr/6W6KFYT2XTMKC1" target="_blank"><i class="fab fa-whatsapp"></i></a>
+            <a href="https://www.facebook.com/share/15Y5bvPpoA/?mibextid=wwXIfr" target="_blank"><i class="fab fa-facebook"></i></a>
+        </div>
+        <p class="copyright">&copy; <span id="currentYear"></span> aimemoria</p>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="js/script.js"></script>
+    <script src="https://kit.fontawesome.com/54de2f0f1c.js" crossorigin="anonymous"></script>
+</body>
+</html>
